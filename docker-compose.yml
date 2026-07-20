@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  business_pilot_ai:
+    build: .
+    container_name: business_pilot_ai_container
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./database:/app/database
+      - ./reports:/app/reports
+      - ./datasets:/app/datasets
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    restart: unless-stopped
