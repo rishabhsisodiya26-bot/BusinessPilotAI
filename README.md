@@ -95,3 +95,8 @@ business_pilot_ai/
 - **Visuals**: Plotly, Matplotlib
 - **AI Integration**: OpenAI API / Custom Rule Engine (Hybrid)
 - **PDF Generation**: ReportLab
+
+---
+
+## 👥 Mentorship
+* **Project Mentor**: **Illapanda Pawan**
